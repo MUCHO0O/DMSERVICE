@@ -57,7 +57,7 @@ self.addEventListener('install', e => {
     e.waitUntil( Promise.all([cacheProm, cacheInmutable]) );
 
 });
-
+//CACHE WITH NETWORK FALLBACK
 self.addEventListener('fetch', e =>{
 
       const respuesta = caches.match( e.request )
