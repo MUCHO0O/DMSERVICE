@@ -1,18 +1,15 @@
 {
-    "short_name": "DM",
-    "name": "DIGITAL SERVICE",
-    "start_url": "/index.html",
-    "background_color": "#0a90c5",
-    "display": "standalone",
-    "theme_color":"#0a90c5",
-    "orientation": "portrait",
-    "icons": [
-        {
-          "src": "/img/icons/128.png",
-          "type": "image/png",
-          "sizes": "3628x3628"
-        }
-      
-      ]
+  "name": "DM SERVICE",
+  "short_name": "DM",
+  "lang": "es-ES",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#0a90c5",
+  "icons": [
+    {
+      "src": "/img/icons/128.png",
+      "sizes": "3628x3628",
+      "type": "image/png"
     }
-
+  ]
+}
