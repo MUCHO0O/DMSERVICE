@@ -34,16 +34,16 @@ self.addEventListener('install', e => {
         .then( cache => {
 
             return cache.addAll([
-                  
-                  '/index.html',
-                  '/css/estilo_index.css',
-                  '/img/fiesta.jpg',
-                  '/img/foto3.png',
-                  '/img/mesero.jpg',
-                  '/img/descarga.jpg',
-                  '/img/tugo.jpg',
-                  '/js/app.js',
-                  '/pages/offline.html'
+                 // '/',
+                  'index.html',
+                  'css/estilo_index.css',
+                  'img/fiesta.jpg',
+                  'img/foto3.png',
+                  'img/mesero.jpg',
+                  'img/descarga.jpg',
+                  'img/tugo.jpg',
+                  'js/app.js',
+                  'pages/offline.html'
                   
             ]);
 
