@@ -13,3 +13,18 @@ if ('serviceWorker' in navigator){
 
 }
 
+//indexdb
+
+let request = window.indexedDB.open('database',1);
+
+//actualiza cuando se sube de version
+
+  request.onupgradeneeded = event => {
+       console.log('Actualizacion de bd');
+
+       let db = event.target.result;
+
+       db.createObjectStore('mensajes', {
+            keyPath: 'Id'
+       });
+  };
