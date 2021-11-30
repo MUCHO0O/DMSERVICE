@@ -8,9 +8,9 @@
     "orientation": "portrait",
     "icons": [
         {
-          "src": "img/icons/128.png",
+          "src": "/img/icons/icono.png",
           "type": "image/png",
-          "sizes": "3628x3628"
+          "sizes": "72x72"
         }
       
       ]
