@@ -1,7 +1,7 @@
 {
     "short_name": "DM",
     "name": "DIGITAL SERVICE",
-    "start_url": "/index.html",
+    "start_url": "index.html",
     "background_color": "#0a90c5",
     "display": "standalone",
     "theme_color":"#0a90c5",
