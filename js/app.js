@@ -1,5 +1,15 @@
+var url = window.location.href;
+var swLocation = '/DMSERVICE/sw.js';
+
+
+
 if ('serviceWorker' in navigator){
-     navigator.serviceWorker.register('/sw.js');
+
+      if(url.includes('localhost')){
+           swLocation = '/sw.js';
+      }
+
+     navigator.serviceWorker.register(swLocation);
 
 }
 
