@@ -81,7 +81,7 @@ self.addEventListener('fetch', e =>{
 
              .catch( errr => {
                      if(e.request.headers.get('accept').includes('text/html') ){
-                           return caches.match('/pages/offline.html');
+                           return caches.match('pages/offline.html');
                      }
 
              })
